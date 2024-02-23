@@ -1,33 +1,52 @@
 .trackCard {
   display: flex;
   align-items: center;
-  width:90%;
+  width: 90%;
   height: 100px;
   margin: 10px;
   justify-content: space-between;
 }
-.trackOne{
-    display: flex;
+
+.trackOne {
+  display: flex;
 }
-.trackTextFull{
-    padding-left: 10px;
-    display: flex;
+
+.trackTextFull {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trackImage {
+  width: 100px;
+}
+
+.trackPlayButton {
+  cursor: pointer;
+  background-color: rgba(44, 44, 44, 0.777);
+  border-radius: 30px;
+  min-width: 100px;
+  min-height: 40px;
+  font-size: 1.3rem;
+}
+
+.trackPlayButton:hover {
+  background-color: #000000;
+}
+
+@media (max-width: 600px) {
+  .trackCard {
     flex-direction: column;
-}
-.trackImage{
-    width: 100px;
-}
+    align-items: flex-start;
+    margin-bottom: 100px;
+  }
 
+  .trackOne {
+    margin-bottom: 10px; 
+  }
 
-.trackPlayButton{
-    cursor: pointer;
-    background-color: rgba(44, 44, 44, 0.777);
-    border-radius: 30px;
-    min-width: 100px;
-    min-height: 40px; 
-    font-size: 1.3rem;
-}
-
-.trackPlayButton:hover{
-    background-color: #000000;
+  .trackTextFull {
+    padding-left: 20px;
+    font-size: 80%;
+  }
 }

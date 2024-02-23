@@ -6,7 +6,6 @@
     position: fixed;
     bottom: 0;
     left: 0;
-   
   }
   .rhap_additional-controls{
     flex: none;
@@ -61,4 +60,20 @@ color: #1db954;
   
   .rhap_progress-filled{
     background-color: #1db954;
+  }
+
+  @media (max-width: 600px){
+    .rhap_main-controls{
+      flex-grow: 10;
+    }
+   .trackInfo{
+    display: none;
+   }
+
+  }
+
+  @media screen and (max-width: 400px) {
+    .rhap_volume-container{
+      display: none;
+    }
   }
