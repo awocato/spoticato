@@ -1,0 +1,64 @@
+
+.rhap_container {
+    display: flex;
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+   
+  }
+  .rhap_additional-controls{
+    flex: none;
+  }
+  .rhap_main {
+    flex-direction: column-reverse;
+  }
+  .rhap_main-controls {
+    flex-grow: 4;
+
+  }
+  .rhap_main-controls-button, .rhap_volume-button{
+    color: white;
+  } 
+  .rhap_main-controls-button:hover, .rhap_volume-button:hover{
+color: #1db954;
+  }
+  
+  
+  .trackInfo {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    overflow: hidden;
+    text-wrap: nowrap;
+    gap: 2rem;
+  }
+  
+  .textInfo {
+    z-index: -1;
+    display: inline-block;
+    color: #fff;
+    padding-left: 100%;
+    animation: move 15s linear infinite;
+  }
+  @keyframes move {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+  
+  .playerImage {
+    width: 3rem;
+  }
+  
+  .rhap_time{
+    color: white;
+  }
+  
+  .rhap_progress-filled{
+    background-color: #1db954;
+  }

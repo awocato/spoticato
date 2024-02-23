@@ -1,0 +1,32 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background: #333;
+  position: fixed;
+ width: 100%;
+ z-index: 100;
+}
+
+.icon:hover{
+  color:  #1db954 !important;
+  
+  cursor: pointer;
+}
+.roundButton{
+  font-size: 1.5rem;
+}
+
+a[href]{
+  color: white;
+  text-decoration: none;
+}
+a[href]:hover{
+  color:  #1db954;
+}
+.links{
+display: flex;
+gap: 30px
+}

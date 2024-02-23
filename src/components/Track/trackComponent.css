@@ -1,0 +1,33 @@
+.trackCard {
+  display: flex;
+  align-items: center;
+  width:90%;
+  height: 100px;
+  margin: 10px;
+  justify-content: space-between;
+}
+.trackOne{
+    display: flex;
+}
+.trackTextFull{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.trackImage{
+    width: 100px;
+}
+
+
+.trackPlayButton{
+    cursor: pointer;
+    background-color: rgba(44, 44, 44, 0.777);
+    border-radius: 30px;
+    min-width: 100px;
+    min-height: 40px; 
+    font-size: 1.3rem;
+}
+
+.trackPlayButton:hover{
+    background-color: #000000;
+}
