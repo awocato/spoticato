@@ -19,8 +19,8 @@ export const PlayerComponent: React.FC<PlayerProps> = ({ track, handleNext, hand
   return (
     <AudioPlayer
       autoPlay
-      src={track.preview_url}
-      onPlay={e => console.log("preview is playing...")}
+      src={track.preview_url || ""}
+      onPlay={() => console.log("preview is playing...")}
       onEnded={handleEnded}
       onClickPrevious={handlePrev}
       onClickNext={handleNext}

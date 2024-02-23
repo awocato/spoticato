@@ -17,7 +17,7 @@ export function SearchComponent() {
     const fetchSearchResults = async () => {
       try {
         if (debouncedSearchTerm) {
-          const results = await sdk.search(debouncedSearchTerm, ["track"]);
+          const results = await sdk.search(debouncedSearchTerm, ["track" as const]);
           setSearchResults(results.tracks);
         } else {
           setSearchResults(null);

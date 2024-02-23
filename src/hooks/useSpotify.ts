@@ -29,7 +29,7 @@ export function useSpotify(
         if (authenticated) {
           setSdk(() => internalSdk);
         }
-      } catch (e: Error | unknown) {
+      } catch (e: unknown) {
         const error = e as Error;
         if (error?.message?.includes("No verifier found in cache")) {
           console.error(
