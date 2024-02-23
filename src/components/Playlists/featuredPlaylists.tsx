@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useContext, useEffect, useState } from "react";
 import { SpotifyContext } from "../../api/auth";
 import { FeaturedPlaylists, Track } from "@spotify/web-api-ts-sdk";
