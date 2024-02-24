@@ -2,7 +2,7 @@
 
 This project is a task created using Vite, React, TypeScript, and the Spotify SDK. It features a home page and a search page.
 
-**GitHub Repository**: [Your Repository Link](https://github.com/awocato/spoticato)
+**GitHub Repository**: [Repository Link](https://github.com/awocato/spoticato)
 
 **Spotify SDK Integration**: This task utilizes the [Spotify Web API TypeScript SDK](https://github.com/spotify/spotify-web-api-ts-sdk).
 
