@@ -1,9 +1,25 @@
 # Vite React TypeScript Spotify Task
 
-This project is a task created using Vite, React, TypeScript, and the Spotify SDK. It includes a home page and a search page.
+This project is a task created using Vite, React, TypeScript, and the Spotify SDK. It features a home page and a search page.
 
+**GitHub Repository**: [Your Repository Link](https://github.com/awocato/spoticato)
 
-made with https://github.com/spotify/spotify-web-api-ts-sdk
+**Spotify SDK Integration**: This task utilizes the [Spotify Web API TypeScript SDK](https://github.com/spotify/spotify-web-api-ts-sdk).
 
+## Important Note
 
-Hey there! Just a heads up, the project may or may not behave differently in certain scenarios. Also, keep in mind that most of the songs won't work due to the requirement of Spotify Premium for requesting song URIs. I've used song previews, but not all songs have them. Let me know if you have any questions!
+Hey there! 👋 Just a quick heads-up about the project:
+
+- The behavior may vary in certain scenarios.
+- Most songs may not work due to the requirement of Spotify Premium for requesting song URIs.
+- I've implemented song previews, but please note that not all songs have them.
+
+Feel free to reach out if you have any questions or need further clarification!
+
+## Screenshots
+
+![Screenshot 1](screenshots/img1.png)
+![Screenshot 2](screenshots/img2.png)
+![Screenshot 3](screenshots/img3.png)
+![Screenshot 4](screenshots/img4.png)
+
